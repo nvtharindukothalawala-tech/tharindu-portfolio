@@ -9,7 +9,7 @@ import Projects from "@/components/sections/Projects";
 import Certifications from "@/components/sections/Certifications";
 import Leadership from "@/components/sections/Leadership";
 import Contact from "@/components/sections/Contact";
-
+import AccessibilityWidget from "@/components/ui/AccessibilityWidget";
 export default function Home() {
   return (
     <main className="bg-[#000000]">
@@ -24,6 +24,7 @@ export default function Home() {
       <Leadership />
       <Contact />
       <Footer />
+      <AccessibilityWidget />
     </main>
   );
 }
