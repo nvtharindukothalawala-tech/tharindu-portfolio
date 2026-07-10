@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://tharindu-portfolio-nine.vercel.app/sitemap.xml",
+    sitemap: "https://tharindukothalawala.vercel.app/sitemap.xml",
   };
 }
