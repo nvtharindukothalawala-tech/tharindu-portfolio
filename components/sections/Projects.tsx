@@ -33,6 +33,23 @@ const projects: Project[] = [
     type: "Individual Project",
   },
   {
+    title: "SmartCare Hospital AI",
+    description:
+      "An ongoing collaborative AI healthcare project that predicts patient disease risk using machine learning. The system includes data preprocessing, model evaluation, explainable AI using SHAP, and a Streamlit application for interactive predictions.",
+    tech: [
+      "Python",
+      "Pandas",
+      "Scikit-learn",
+      "XGBoost",
+      "SHAP",
+      "Streamlit",
+    ],
+    github:
+      "https://github.com/nvtharindukothalawala-tech/smartcare-ai-project",
+    status: "Ongoing",
+    type: "Group Project",
+  },
+  {
     title: "Scalable Retail Analytics Pipeline",
     description:
       "An end-to-end big data pipeline that processes more than 541,000 retail transactions using Bronze, Silver, and Gold data layers, RFM analysis, market-basket analysis, and MongoDB storage.",
@@ -97,7 +114,7 @@ export default function Projects() {
         <SectionTitle
           eyebrow="My Work"
           title="Featured Projects"
-          description="A collection of individual and collaborative projects I have built while developing my skills in AI, software engineering, mobile development, and data analytics."
+          description="A collection of individual and collaborative projects I have built while developing my skills in AI, software engineering, mobile development, big data, and data analytics."
         />
 
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
